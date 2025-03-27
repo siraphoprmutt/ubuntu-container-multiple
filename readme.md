@@ -1,5 +1,15 @@
 # จำลอง server ubuntu มากกว่า 1 ในเครื่อง โดยใช้ docker
 
+## 1. เริ่มต้นการใช้งาน Run `docker compose up -d --build`
+
+```bash
+
+git clone https://github.com/siraphoprmutt/ubuntu-container-multiple.git
+cd ubuntu-container-multiple
+docker compose up -d --build
+
+```
+
 ## หากมี username password ใหม่ ให้ทำ
 
 ```bash
