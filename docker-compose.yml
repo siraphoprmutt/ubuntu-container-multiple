@@ -1,0 +1,122 @@
+version: '3.8'
+services:
+  student01:
+    build: .
+    container_name: student01
+    ports:
+      - "2201:22"
+    environment:
+      - USERNAME=student01
+      - PASSWORD=S1n7Ue2r@01
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student02:
+    build: .
+    container_name: student02
+    ports:
+      - "2202:22"
+    environment:
+      - USERNAME=student02
+      - PASSWORD=aX7p9W!s02
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student03:
+    build: .
+    container_name: student03
+    ports:
+      - "2203:22"
+    environment:
+      - USERNAME=student03
+      - PASSWORD=mJ4#rT8z03
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student04:
+    build: .
+    container_name: student04
+    ports:
+      - "2204:22"
+    environment:
+      - USERNAME=student04
+      - PASSWORD=Qw3%kLe104
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student05:
+    build: .
+    container_name: student05
+    ports:
+      - "2205:22"
+    environment:
+      - USERNAME=student05
+      - PASSWORD=Vb6^yUmx05
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student06:
+    build: .
+    container_name: student06
+    ports:
+      - "2206:22"
+    environment:
+      - USERNAME=student06
+      - PASSWORD=cN@78Lp906
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student07:
+    build: .
+    container_name: student07
+    ports:
+      - "2207:22"
+    environment:
+      - USERNAME=student07
+      - PASSWORD=Zx8#rPl307
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student08:
+    build: .
+    container_name: student08
+    ports:
+      - "2208:22"
+    environment:
+      - USERNAME=student08
+      - PASSWORD=tW5@Hy2!08
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student09:
+    build: .
+    container_name: student09
+    ports:
+      - "2209:22"
+    environment:
+      - USERNAME=student09
+      - PASSWORD=nR6^Bp94@09
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
+  student10:
+    build: .
+    container_name: student10
+    ports:
+      - "2210:22"
+    environment:
+      - USERNAME=student10
+      - PASSWORD=Df3@kRt210
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+
